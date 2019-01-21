@@ -1,0 +1,66 @@
+
+h1 {
+    color: mediumblue;
+    width: 60%;
+    font-size: 4em; 
+    margin: 3% auto;
+    text-align: center;  
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    border-bottom: 5px double rgb(35, 134, 141);
+    padding-bottom: 40px;
+} 
+
+body {
+    background-image: url("https://cdn.audubon.org/cdn/farfuture/cmCwN1GiqkRrLjYq8tq3ssHjWjVWhz2EBLTiViuBqeo/mtime:1528493280/sites/default/files/styles/hero_image/public/olympic.jpg?itok=QgAVo9os") !important;
+}
+
+body {
+    background-image: url(http://justfunfacts.com/wp-content/uploads/2018/03/mountains.jpg)
+}
+
+main {
+    width: 60%;
+    margin: 3% auto;
+}
+
+article {
+    margin: 0.5% auto;
+    border: 2px solid black;
+    width: 60%;
+    background:white;
+}
+
+article > h3 {
+    font-size: 2em;
+    color: blue;
+    margin: 1% auto; 
+}
+
+article > small {
+    color: green;
+    font-size: 16.5px;
+    margin: 1% auto;
+}
+
+article > p {
+    margin: 1% auto;
+}
+
+p:hover:first-letter {
+    color: green;
+    font-size: 30px; 
+}
+
+article:hover {
+    background-image: url(https://www.georgiamtncabins.com/custimages/blue-ridge-cabin-rentals-1.jpg);   
+}
+
+footer {
+    text-align: center; 
+}
+
+footer > #aca {
+    width: 100px;
+    height: 90px; 
+}
