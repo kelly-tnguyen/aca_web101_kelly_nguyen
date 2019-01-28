@@ -1,0 +1,101 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.container {
+    width: 100%;
+}
+
+.navbar {
+    text-align: right;
+    background-color: darkgrey;
+}
+
+.navbar > a:hover {
+    color: white;
+}
+
+.headTitle {
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+}
+
+div.pic {
+    height: 260px;
+    width: 100%;
+    margin: 1px 0 10px 0;
+    display: inline-block;
+    border: 1px solid gray;
+    overflow: hidden;
+}
+
+button {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.iceland1 {
+    background-image: url(./images/iceland4.jpg);
+    background-size: cover;
+}
+
+.iceland2 {
+    background-image: url(./images/iceland2.jpg);
+    background-size: cover;
+}
+
+.iceland3 {
+    background-image: url(./images/iceland5.jpg);
+    background-size: cover;
+}
+
+.iceland4 {
+    background-image: url(./images/iceland1.jpg);
+    background-size: cover;
+}
+
+.contact > a:hover {
+    color: white;
+}
+
+footer {
+    background-color: darkgray;
+    text-align: right;
+}
+
+/* 
+Extra Small and up (Portrait Phones) */
+
+/* Extra Small and up (Portrait Phones) */
+
+/* Small and up (Landscape Phones) */
+@media screen and (min-width: 576px) {
+    div.pic {
+        margin: 1%;
+        width: 54%;
+    }
+
+    .headTitle {
+        text-align: center;
+        width: auto;
+    }
+}
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+    div.pic {
+        margin: 1%;
+        width: 32%;
+    }
+}
+/* Large and up (Desktops) */
+@media screen and (min-width: 992px) {
+    div.pic {
+        margin: 1%;
+        width: 22%;
+    }
+}
