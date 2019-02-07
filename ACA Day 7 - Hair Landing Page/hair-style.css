@@ -1,0 +1,196 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.scissors {
+    padding-top: 30px;
+    height: 90px;
+    width: 150px;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 100%;
+}
+
+.link {
+    padding: 0px 12px 0px 12px;
+}
+
+.link:hover {
+    color: lightseagreen;
+}
+
+.banner {
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    height: 600px;
+    padding: 80px 0px 20px 80px;
+    text-align: right;
+    font-size: 29px;
+    padding-right: 90px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.title {
+    display: inline-block;
+    background-color: white;
+    text-transform: capitalize;
+}
+
+.text1 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+
+.text2 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+
+.text3 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+
+div.readMore {
+    height: auto;
+    width: auto;
+    display: inline-block;
+    color: white;
+    background-color: seagreen;
+}
+
+.readMore:hover {
+    background-color: lightseagreen;
+}
+
+.container {
+    width: 100%;
+}
+
+div.pic {
+    height: 350px;
+    /* width: 350px; */
+    width: 100%;
+    margin: 0px 30px 0px 30px;
+    display: inline-flex;
+    border: 3px solid gray;
+    overflow: hidden;
+}
+
+.samples {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.shortHair {
+    background-image: url(./img/shortHair.jpg);
+    background-size: cover;
+    font-weight: bold;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+}
+
+.mediumHair {
+    background-image: url(./img/mediumHair.jpg);
+    background-size: cover;
+    font-weight: bold;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+
+}
+
+.longHair {
+    background-image: url(./img/longHair.jpg);
+    background-size: cover;
+    font-weight: bold;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+footer > p {
+    color: white;
+    margin-top: 40px;
+    padding-right: 60em;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.media {
+    height: 60px;
+    width: 60px;
+    margin: 20px 20px;
+    border: 3px gray solid;
+    align-content: right;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+.media:hover {
+    background-color: white;
+}
+
+footer > img {
+    justify-content: right;
+}
+
+
+/* 
+Extra Small and up (Portrait Phones) */
+
+/* Extra Small and up (Portrait Phones) */
+
+/* Small and up (Landscape Phones) */
+@media screen and (min-width: 576px) {
+    div.pic {
+        margin: 1%;
+        width: 25%;
+    }
+
+/* Medium and up (Tablets) */
+/* @media (min-width: 768px) {
+    div.pic {
+        margin: 1%;
+        width: 32%;
+    }
+} */
+
+Large and up (Desktops) */
+@media screen and (min-width: 992px) {
+    div.pic {
+        margin: 1%;
+        width: 22%;
+    }
