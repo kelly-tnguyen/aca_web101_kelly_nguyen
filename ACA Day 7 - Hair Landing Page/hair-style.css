@@ -86,19 +86,19 @@ div.readMore {
 div.pic {
     height: 350px;
     /* width: 350px; */
-    width: 100%;
+    width: 28%;
     margin: 0px 30px 0px 30px;
-    display: inline-flex;
+    display: inline-block;
     border: 3px solid gray;
     overflow: hidden;
 }
 
 .samples {
-    display: flex;
+    /* display: inline-block; */
     text-align: center;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* flex-wrap: wrap; */
     padding: 40px;
     margin-top: 50px;
 }
@@ -108,7 +108,8 @@ div.pic {
     background-size: cover;
     font-weight: bold;
     font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px lightgray;
 }
 
 .mediumHair {
@@ -116,8 +117,8 @@ div.pic {
     background-size: cover;
     font-weight: bold;
     font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 20px;
-
+    font-size: 25px;
+    text-shadow: 2px 2px 2px lightgray;
 }
 
 .longHair {
@@ -125,7 +126,8 @@ div.pic {
     background-size: cover;
     font-weight: bold;
     font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px lightgray;
 }
 
 footer {
@@ -139,7 +141,7 @@ footer {
 
 footer > p {
     color: white;
-    font-size: 10px;
+    font-size: 15px;
     margin-top: 10px;
     display: flex;
     justify-content: center;
@@ -174,28 +176,67 @@ Extra Small and up (Portrait Phones) */
 /* Extra Small and up (Portrait Phones) */
 
 /* Small and up (Landscape Phones) */
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
     div.pic {
         margin: 1%;
-        width: 25%;
+        width: 70%;
     }
 
     footer {
         display: flex;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
     }
 
     footer > p {
         margin-top: 10px;
     }
+
+    .shortHair {
+        background-position: 60%;
+    }
+
+    .mediumHair {
+        background-position: 20%;
+    }
+
+    .banner {
+        background-position: 20%;
+    }
+
+    .title {
+        display: none;
+    }
+
+    .text1 {
+        display: none;
+    }
+
+    .text2 {
+        display: none;
+    }
+
+    .text3 {
+        display: none;
+    }
+
+    div.readMore {
+        display: none;
+    }
 }
-/* Medium and up (Tablets) */
-/* @media (min-width: 768px) {
+Medium and up (Tablets) */
+ @media (min-width: 768px) {
     div.pic {
         margin: 1%;
-        width: 32%;
+        width: 50px;
+        display: flex;
+        flex-wrap: wrap;
     }
-} */
+    
+    .shortHair {
+        background-position: 60%;
+    }
+    
+}
 
 Large and up (Desktops) */
 @media screen and (min-width: 992px) {
@@ -207,4 +248,25 @@ Large and up (Desktops) */
     footer > p {
         padding-right: 60em;
     }
-    
+
+     .title {
+        display: inline-block;
+    }
+
+    .text1 {
+        display: inline-block;
+    }
+
+    .text2 {
+        display: inline-block;
+    }
+
+    .text3 {
+        display: inline-block;
+    } 
+
+    div.readMore {
+        display: inline-block;
+    }
+
+
