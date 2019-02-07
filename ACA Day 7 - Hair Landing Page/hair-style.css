@@ -139,17 +139,17 @@ footer {
 
 footer > p {
     color: white;
-    margin-top: 40px;
-    padding-right: 60em;
+    font-size: 10px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
 
 .media {
-    height: 60px;
-    width: 60px;
-    margin: 20px 20px;
+    height: 48px;
+    width: 48px;
+    margin: 10px 10px;
     border: 3px gray solid;
     align-content: right;
 }
@@ -180,6 +180,15 @@ Extra Small and up (Portrait Phones) */
         width: 25%;
     }
 
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer > p {
+        margin-top: 10px;
+    }
+}
 /* Medium and up (Tablets) */
 /* @media (min-width: 768px) {
     div.pic {
@@ -194,3 +203,8 @@ Large and up (Desktops) */
         margin: 1%;
         width: 22%;
     }
+
+    footer > p {
+        padding-right: 60em;
+    }
+    

@@ -39,22 +39,22 @@ button {
 }
 
 .iceland1 {
-    background-image: url(./images/iceland4.jpg);
+    background-image: url(../Images/img/iceland3.jpg);
     background-size: cover;
 }
 
 .iceland2 {
-    background-image: url(./images/iceland2.jpg);
+    background-image: url(../images/img/iceland2.jpg);
     background-size: cover;
 }
 
 .iceland3 {
-    background-image: url(./images/iceland5.jpg);
+    background-image: url(../images/img/iceland5.jpg);
     background-size: cover;
 }
 
 .iceland4 {
-    background-image: url(./images/iceland1.jpg);
+    background-image: url(../images/img/iceland1.jpg);
     background-size: cover;
 }
 
