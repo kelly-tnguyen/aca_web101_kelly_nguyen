@@ -1,0 +1,240 @@
+header {
+    background-image: url(img/banner.JPG);
+    background-position: cover;
+    background-size:110%;
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul>li {
+    margin-right: 1%;
+    padding: 4px;
+}
+
+ul>li:hover {
+    background-color: white;
+    color: seagreen;
+}
+
+.name {
+    font-family: 'Spicy Rice', cursive;
+    line-height:1px;
+    font-size: 60px;
+    letter-spacing: -2px;
+    padding-bottom: -10px;
+}
+
+.headTitle {
+    font-family: 'Michroma', sans-serif;
+    padding-top: 1px;
+    margin-bottom: 70px;
+}
+
+.video {
+    padding-top: 10px;
+    align-content: center;
+}
+
+h2 {
+    font-family: 'Michroma', sans-serif;
+    font-weight: bold;
+}
+
+.pic {
+    width: 100%;
+    border: 3px solid gray;
+}
+
+img:hover {
+    background: white;;
+}
+
+h2 {
+    background-color: wheat;
+}
+
+/* CONTACT FORM */
+form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    background: lightgray;
+    padding: 25px 15px 25px 10px;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border: 1px solid darkgray;
+}
+
+h1 {
+    font-size: 25px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid darkgray;
+    margin: -10px -15px 30px -10px;
+    color:black;
+}
+
+h1>span {
+    display: block;
+    font-size: 11px;
+}
+
+label {
+    display: block;
+    margin: 0px;
+}
+
+label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #888;
+}
+
+input[type="text"], input[type="email"], input[type="location"], textarea, select {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 12px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+
+textarea{
+    padding: 5px 3px 3px 5px;
+}
+
+select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    background: #FFF url('down-arrow.png') no-repeat right);
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 70%;
+    height: 35px;
+    line-height: 25px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.button {
+    background: #E27575;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #9E3F3F;
+    cursor: pointer;
+}
+.button:hover {
+    background: #CF7A7A
+}
+
+.reset {
+    background: white;
+    color:black;
+    text-shadow: none;
+    margin-bottom: 9px;
+}
+
+.reset:hover {
+    background: gray;
+}
+}
+/* END OF CONTACT FORM */
+
+
+/* Extra Small and up (Portrait Phones) */
+
+/* Small and up (Landscape Phones) */
+@media (max-width: 768px) {
+     .haircut {
+        height:170px;
+    } 
+    
+    .iceland {
+        height: 170px;
+    }
+
+    .nationalPark {
+        height:170px;
+    }
+
+    .pic {
+        width: 27%;
+        margin: 2px;
+        padding: 15px;   
+    }
+}
+
+}
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+         .haircut {
+            height:170px;
+        }
+    
+        .iceland {
+            height: 170px;
+        }
+    
+        .nationalPark {
+            height:170px;
+        }
+
+        .pic {
+            width: 27%;
+            margin: 2px;
+            padding: 15px;   
+        }
+    }
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+    /haircut {
+        height: 320px;
+    }
+    
+    .iceland {
+        height: 320px;
+    }
+
+    .nationalPark {
+        height:320px;
+    }
+    .pic {
+        width: 30%;
+        margin: 2px;
+        padding: 15px;   
+    }
+}
+
+/* Extra Large and up (Wide Screen Desktops) */
+@media (min-width: 1200px) {
+
+}
