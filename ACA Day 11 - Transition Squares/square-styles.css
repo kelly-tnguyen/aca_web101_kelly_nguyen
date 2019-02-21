@@ -1,0 +1,74 @@
+.container:hover div:nth-child(odd) {
+    transform: translate(180px) scale(2, 2) rotate(180deg);
+    background-color: white;
+}
+
+.container:hover div:nth-child(even) {
+    transform: translate(-180px) scale(.5, .5) rotate(-180deg);
+    background-color: white;
+}
+
+.container {
+    width: 100px;
+    position: absolute;
+    left: 45%;
+    margin-top: 90px;
+}
+
+
+div {
+    transition: all 1s ease-in-out;
+}
+
+.square {
+    width: 50px;
+    height: 50px; 
+}
+
+.one {
+    background-color: #0074D9;
+}
+
+.two {
+    background-color: #7FDBFF;
+}
+
+.three {
+    background-color: #39CCCC;
+}
+
+.four {
+    background-color: #3D9970;
+}
+
+.five {
+    background-color: #2ECC40;
+}
+
+.six {
+    background-color: #01FF70;
+}
+
+.seven {
+    background-color: #FFDC00;
+}
+
+.eight {
+    background-color: #FF851B;
+}
+
+.nine {
+    background-color: #FF4136;
+}
+
+.ten {
+    background-color: #85144B;
+}
+
+.eleven {
+    background-color: #F012BE;
+}
+
+.twelve {
+    background-color: #B10DC9;
+}
