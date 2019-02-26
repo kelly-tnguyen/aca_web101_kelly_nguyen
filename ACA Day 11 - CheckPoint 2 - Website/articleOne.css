@@ -1,0 +1,101 @@
+header {
+    padding-top: 80px;
+    background-color:#FA8BFF; 
+    height: 330px;
+    margin-bottom: 50px; 
+    color: rgb(251, 218, 253); 
+}
+
+.social {
+    position: relative;
+    left: 3%;
+    height: 47px;
+    width: 47px;
+    padding: 7px;
+}
+
+.banner {
+    font-size: 60px;
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 30px;
+    font-family: 'Niconne', cursive;
+    animation: jackInTheBox;
+    animation-duration: 2s;
+}
+
+.picture {
+    height: auto;
+    width: 100%;
+    border: 2.5px solid gray;
+}
+
+body {
+    background-color: rgb(245, 245, 243);
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+    padding-top: -30px;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.social:hover {
+    background-color:pink;
+    border: 1px solid darkgray;
+    border-radius: 20px;
+    animation: bounce;
+    animation-duration: .8s;
+}
+
+.link:hover {
+    color:lightseagreen !important;  
+}
+
+/* MEDIA QUERIES */
+
+/* Phone */
+@media (min-width: 576px) {
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    body {
+        background-color:slategrey;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    p {
+        color: white; 
+    }
+
+    .banner {
+        text-align: center;
+    }
+    
+    h2 {
+        color: white;
+        padding-top: 0px;
+    }
+
+    .social {
+        position: relative;
+        left: 36%;
+        height: 50px;
+        width: 50px;
+        padding: 20px;
+    }
+
+    .picture {
+        border: 2px solid white;
+        margin: 10px;
+    }
+}

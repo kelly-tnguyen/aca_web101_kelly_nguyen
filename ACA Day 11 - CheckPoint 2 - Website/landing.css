@@ -1,0 +1,145 @@
+img {
+    position: relative;
+    left: 3%;
+    height: 47px;
+    width: 47px;
+    padding: 7px;
+}
+
+header {
+    padding-top: 10px;
+    /* background-color: #A4A9FF; */
+    background-image: url(img/banner.jpg);
+    background-position: left;
+    background-position-x: 0px;
+    height: 400px;
+    color: rgb(251, 218, 253);
+}
+
+.banner {
+    font-size: 60px;
+    padding-top: 30px;
+    text-align: left;
+    padding-left: 30px;
+    font-family: 'Niconne', cursive;
+    animation: zoomIn;
+    animation-duration: 1.5s;
+}
+
+body {
+    /* background-color: rgb(244, 247, 252); */
+    background-color: rgb(245, 245, 243);
+}
+
+h2 {
+    font-size:35px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Comfortaa', cursive;
+}
+
+link {
+    color: white;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+    padding-top: -30px;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.color {
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    left: 30%;
+}
+
+.first {
+    background-color: #FA8BFF;
+}
+
+.second {
+    background-color: #2BD2FF;
+}
+
+.third {
+    background-color: #2BFF88;
+}
+
+.link:hover {
+    color:lightseagreen !important; 
+    animation: flash;
+    animation-duration: 1s;
+}
+
+.social:hover {
+    background-color:pink;
+    border: 1px solid darkgray;
+    border-radius: 20px;
+    animation: bounce;
+    animation-duration: .8s;
+}
+
+/* MEDIA QUERIES */
+
+/* Phone */
+@media (min-width: 576px) {
+
+/* Desktop */
+@media (min-width: 992px) {
+    header {
+        /* background-color: rgb(240, 231, 162); */
+        padding-top: 60px;
+        background-repeat: none;
+        background-size: cover;
+        background-position: top-right;
+    }
+
+    body {
+        background-color:slategrey;
+    }
+
+    p {
+        color: white; 
+    }
+    
+    h2 {
+        color: white;
+        padding-top: 0px;
+    }
+
+    .banner {
+        text-align: left;
+        margin-right: 60%;
+        margin-left:7%;
+        font-size: 70px;
+        /* color: rgb(114, 120, 236); */
+        color: rgb(196, 242, 255);
+    }
+
+    .flex {
+        display: flex;
+        width: 100%;
+    }
+
+    .bar {
+        height: 25px;
+        width: 140px;
+        position: relative;
+        margin-top: 50px;
+    }
+
+    .article {
+        padding: 0px 80px 0px;
+    }
+
+    img {
+        position: relative;
+        left: 36%;
+        height: 50px;
+        width: 50px;
+        padding: 20px;
+    }
+}

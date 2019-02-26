@@ -1,0 +1,164 @@
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.social {
+    position: relative;
+    left: 3%;
+    height: 47px;
+    width: 47px;
+    padding: 7px;
+}
+
+.link:hover {
+    color:lightseagreen !important;  
+}
+
+.social:hover {
+    background-color:pink;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    animation: bounce;
+    animation-duration: .8s;
+}
+
+header {
+    padding-top: 10px;
+    background-image: url(img/aboutBanner.jpg);
+    background-position: left;
+    height: 400px;
+}
+
+.banner {
+    font-size: 50px;
+    color: grey;
+    padding-top: 35px;
+    text-align: left;
+    padding-left: 30px;
+    font-family: 'Niconne', cursive;
+    animation: rubberBand;
+    animation-duration: 2s;
+}
+
+h1 {
+    color: rgb(236, 52, 236);
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 40px;
+    font-family: 'Niconne', cursive;
+}
+
+h2 {
+    text-align: center;
+    background-color: lightgray;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif;
+    color: violet;
+}
+
+p {
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.our {
+    /* border: 1px solid black; */
+    border-style: double;
+    margin-bottom: 10px;
+    padding: 50px;
+    text-align: center;
+    background-color: #F2C0E5;
+}
+
+.descriptionTitle {
+    color:violet;
+}
+
+.merit:hover {
+    color: rgb(236, 106, 236);
+    background-color: lightpink;
+    animation: pulse;
+    animation-duration: .5s;
+}
+
+.process:hover {
+    background-color: lightpink;
+    color: rgb(236, 106, 236);
+    animation: pulse;
+    animation-duration: .5s;
+}
+.contact:hover {
+    background-color: lightpink;
+    color: rgb(236, 106, 236);
+    animation: pulse;
+    animation-duration: .5s;
+}
+
+/* MEDIA QUERIES */
+
+/* Phone */
+@media (min-width: 576px) {
+
+/* Desktop */
+@media (min-width: 992px) {
+        header {
+            /* background-color: rgb(240, 231, 162); */
+            padding-top: 60px;
+            background-repeat: none;
+            background-size: cover;
+            background-position: top-right;
+        }
+    
+        body {
+            background-color:slategrey;
+        }
+    
+        p {
+            color: white; 
+        }
+        
+        h2 {
+            color: white;
+            padding-top: 0px;
+        }
+    
+        .banner {
+            text-align: center;
+            margin-left:7%;
+            font-size: 70px;
+            color: rgb(196, 242, 255);
+        }
+
+        .social {
+            position: relative;
+            left: 36%;
+            height: 50px;
+            width: 50px;
+            padding: 20px;
+        }
+
+        h2 {
+            margin-left: 500px;
+            margin-right: 500px;
+            color: black;
+            border: 1px solid white;
+        }
+
+        .our {
+            margin-right: 600px;
+            margin-left: 600px;
+            display: inline-block;
+            position: relative;
+            margin: 1%;
+            padding: 4%;
+            float: left;
+            width: 23%;
+
+        }
+
+
+
