@@ -1,0 +1,28 @@
+section {
+    border: 1px solid black;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 40%;
+}
+
+.toDo > h2 {
+    text-align: center;
+    font-family: 'Michroma', sans-serif;
+}
+
+.toDo {
+    grid-area: toDo;
+}
+
+li {
+    list-style-type: none;
+    font-size: 19px;
+    margin: 1%;
+    text-align: center;
+
+}
+
+.add {
+    font-size: 15px;
+    height: 26px;
+}
