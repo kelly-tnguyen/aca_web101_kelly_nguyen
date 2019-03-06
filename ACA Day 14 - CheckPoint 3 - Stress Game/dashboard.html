@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kelly's Dashboard</title>
+    <link href="https://fonts.googleapis.com/css?family=Saira" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Kameron" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Michroma" rel="stylesheet">
+    <link rel="stylesheet" href="dashboard-style.css">
+</head>
+
+<body>
+    <main>
+        <header>
+        <h1>Welcome back!</h1>
+        </header>
+
+    <section class="game">
+        <div class="stress"><a class="reliever" href="stressGame.html">Click here to play Stress Reliever game!</a></div>
+    </section>
+    
+
+    <section class="calculator">
+        <!-- <h2>Calculator</h2> -->
+            <div class="calculator">
+
+                <input type="text" class="calculator-screen" value="0" disabled />
+              
+                <div class="calculator-keys">
+              
+                  <button type="button" class="operator" value="+">+</button>
+                  <button type="button" class="operator" value="-">-</button>
+                  <button type="button" class="operator" value="*">&times;</button>
+                  <button type="button" class="operator" value="/">&divide;</button>
+              
+                  <button type="button" value="7">7</button>
+                  <button type="button" value="8">8</button>
+                  <button type="button" value="9">9</button>
+              
+                  <button type="button" value="4">4</button>
+                  <button type="button" value="5">5</button>
+                  <button type="button" value="6">6</button>
+              
+                  <button type="button" value="1">1</button>
+                  <button type="button" value="2">2</button>
+                  <button type="button" value="3">3</button>
+              
+                  <button type="button" value="0">0</button>
+                  <button type="button" class="decimal" value=".">.</button>
+                  <button type="button" class="all-clear" value="all-clear">AC</button>
+              
+                  <button type="button" class="equal-sign" value="=">=</button>
+              
+                </div>
+              </div>
+    </section>
+
+    <section class="date">
+        <h2>January 28, 2019</h2>
+    </section>
+
+    <section class="time">
+        <h2>8:55 PM</h2>
+    </section>
+
+    <section class="geolocation">
+        <p><button class="location" onclick="obtainLocation()">Where are you located?</button></p>
+        <p id="my-coordinates"></p>
+    </section>
+
+    <section class="toDo">
+        <h2>Daily To-Do List</h2>
+        <ul class="list">
+            <li><input type="checkbox">Code - Everyday!</input></li>
+            <li><input type="checkbox">Tutor session with Keith</input></li>
+            <li><input type="checkbox">Feed and walk dogs</input></li>
+            <li><input type="checkbox">Grocery shopping</input></li>
+            <li><input type="checkbox">Go to Walmart to buy water</input></li>
+            <li><input type="checkbox">Go to the gym</input></li>
+            <li><input type="checkbox">Shower so I don't stink</input></li>
+            <li><input type="checkbox">Code again</input></li>
+            <li><input type="checkbox">Feed and walk dogs</input></li>
+            <li><input type="checkbox">Make dinner so everyone else doesn't starve</input></li>
+            <li><input type="checkbox">Relax a bit</input></li>
+            <li><input type="checkbox">Get ready for bed</input></li>
+            <li><input class="searchBar" type="Need to add something?"></input> <button class="add">ADD</button>
+            </li>
+        </ul>
+    </section>
+
+</main>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script/dashboard.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,224 @@
+body {
+    background-image: url(./img/cloud.jpg);
+
+}   
+
+header {
+    /* background-color: lightseagreen; */
+    grid-area: header;
+    font-size: 45px;
+    font-family: 'Damion', cursive;
+    text-align: center;
+}
+
+.calculator {
+    background-color: lightblue;
+    grid-area: calculator;
+    border: 1px solid;
+    border-color: darkslategray;
+}
+
+.calculator-screen {
+    width: 87%;
+    font-size: 5rem;
+    height: 80px;
+    border: black gray;
+    background-color: lightsteelblue;
+    color: black;
+    text-align: right;
+    /* padding-right: 10px; */
+    padding-left: 20px;
+  }
+
+  button {
+    height: 60px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid rgb(77, 165, 165);
+    background-color: transparent;
+    font-size: 2rem;
+    color: #333;
+    background-image: linear-gradient(to bottom,transparent,transparent 50%,rgba(0,0,0,.04));
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.05), inset 0 1px 0 0 rgba(255,255,255,.45), inset 0 -1px 0 0 rgba(255,255,255,.15), 0 1px 0 0 rgba(255,255,255,.15);
+    text-shadow: 0 1px rgba(255,255,255,.4);
+  }
+  
+  button:hover {
+    background-color: #eaeaea;
+  }
+  
+  .operator {
+    color: #337cac;
+  }
+  
+  .all-clear {
+    background-color: #f0595f;
+    border-color: #b0353a;
+    color: #fff;
+  }
+  
+  .all-clear:hover {
+    background-color: #f17377;
+  }
+  
+  .equal-sign {
+    background-color: #2e86c0;
+    border-color: #337cac;
+    color: #fff;
+  }
+  
+  .equal-sign:hover {
+    background-color: #4e9ed4;
+  }
+
+  .calculator-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+
+  .equal-sign {
+    background-color: #2e86c0;
+    border-color: #337cac;
+    color: #fff;
+    grid-row-start: 2;
+  }
+
+  .equal-sign {
+    background-color: #2e86c0;
+    border-color: #337cac;
+    color: #fff;
+    height: 100%;
+    grid-area: 2 / 4 / 6 / 5;
+  }
+
+section {
+    border-style: solid;
+    border-color: darkslateblue;;
+    margin: .5%;
+    /* border-radius: 25px; */
+}
+
+.date {
+    /* background-color: lightslategrey; */
+    grid-area: date;
+    text-align: center;
+    font-family: 'Michroma', sans-serif;
+}
+
+.time {
+    /* background-color: lightgreen; */
+    grid-area: time;
+    text-align: center;
+    font-family: 'Michroma', sans-serif;
+}
+
+.toDo {
+    /* background-color: lightcoral; */
+    grid-area: toDo;
+}
+
+.toDo > h2 {
+    text-align: center;
+    font-family: 'Michroma', sans-serif;
+}
+
+li {
+    list-style-type: none;
+    font-size: 19px;
+    margin: 1%;
+}
+
+.list {
+    font-family: 'Saira', sans-serif;
+}
+
+.add {
+    font-size: 15px;
+    height: 26px;
+}
+
+.searchBar {
+    padding-right: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-areas: 
+      "header"
+      "geolocation"
+      "game"
+      "date"
+      "time"
+      "toDo"
+      "calculator";
+}
+
+.geolocation {
+    text-align: center;
+    padding: 5px;
+}
+
+.location:hover {
+    color: blue;
+}
+
+.location {
+   font-size: 15px;
+   color:blue;
+   background-color: lightgray;
+}
+
+.stress {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.reliever:hover {
+    color: lightseagreen;
+}
+
+@media (min-width: 500px) {
+    main {
+      grid-template-columns: 2fr 1fr;
+      grid-template-areas: 
+        "header    header"
+        "game     game"
+        "geolocation geolocation"
+        "date     date"
+        "time    time"
+        "calculator"
+        "toDo  toDo";
+    }
+
+    .calculator-screen {
+        width: 82%;  
+    }
+  
+
+@media (min-width: 700px) {
+    main {
+      grid-template-columns: 1fr .001fr 1fr;
+      grid-template-areas: 
+        "header   header   header"
+        "geolocation    geolocation   date"
+        "toDo    toDo   time"
+        "toDo   toDo  calculator"
+        "game   game  game";
+    }
+
+    .calculator-screen {
+        width: 92%;  
+    }
+
+     body {
+      margin-left: 170px;
+      margin-right: 170px; 
+     }
+
+     .stress {
+      padding-top: 30px;
+    }
