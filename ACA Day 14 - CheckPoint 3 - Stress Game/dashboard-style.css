@@ -1,10 +1,8 @@
 body {
     background-image: url(./img/cloud.jpg);
-
 }   
 
 header {
-    /* background-color: lightseagreen; */
     grid-area: header;
     font-size: 45px;
     font-family: 'Damion', cursive;
@@ -112,6 +110,17 @@ section {
     grid-area: time;
     text-align: center;
     font-family: 'Michroma', sans-serif;
+}
+
+
+#add:hover {
+  background-color: gray;
+  color: white;
+}
+
+.add {
+  font-size: 15px;
+  height: 26px;
 }
 
 .toDo {
@@ -222,3 +231,5 @@ main {
      .stress {
       padding-top: 30px;
     }
+
+    
