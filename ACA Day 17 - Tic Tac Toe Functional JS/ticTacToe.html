@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="ticTacToe-style.css">
+</head>
+<body onload="startGame();">
+    <section class="heading">
+    <h1>Tic Tac Toe</h1>
+    <div id="message">Messages here. </div>
+    </section>
+
+    <section class="container">
+        <div class="box top topLeft" id="tl" onclick="placeMark('tl')"> </div>
+        <div class="box top topMiddle" id="tm" onclick="placeMark('tm')"> </div>
+        <div class="box top topRight" id="tr" onclick="placeMark('tr')"> </div>
+
+        <div class="box middle middleLeft" id="ml" onclick="placeMark('ml')"> </div>
+        <div class="box middle middleMiddle" id="mm" onclick="placeMark('mm')"> </div>
+        <div class="box middle middleRight" id="mr" onclick="placeMark('mr')"> </div>
+
+        <div class="box bottom bottomLeft" id="bl" onclick="placeMark('bl')"> </div>
+        <div class="box bottom bottomMiddle" id="bm" onclick="placeMark('bm')"> </div>
+        <div class="box bottom bottomRight" id="br" onclick="placeMark('br')"> </div>
+    </section>
+
+
+    <section class="button">
+        <h2>Choose a Player: </h2>
+        <button class="player x" onclick="changeMarkerToX()">X</button>
+        <p> OR </p>
+        <button class="player o" onclick="changeMarkerToO()">O</button>
+        <br>
+        <br>
+    </section>
+
+    <div class="reset">
+        <button class="clear btn" onclick="reset()">Reset</button>
+    </div>
+
+    <script src="/script/ticTacToe.js"></script>
+</body>
+</html>

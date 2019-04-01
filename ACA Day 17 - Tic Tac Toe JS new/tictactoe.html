@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Kanit|Questrial|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="ticTacToe-style.css">
+</head>
+<body onload="startGame();">
+        <h1>Tic Tac Toe</h1>
+        <div id="message"></div>
+    </section>
+    <table>
+        <tr>
+            <td class="square" id="s1" onClick="nextMove(this)"></td>
+            <td class="square" id="s2" onClick="nextMove(this)"></td>
+            <td class="square" id="s3" onClick="nextMove(this)"></td>
+        </tr>
+        <tr>
+            <td class="square" id="s4" onClick="nextMove(this)"></td>
+            <td class="square" id="s5" onClick="nextMove(this)"></td>
+            <td class="square" id="s6" onClick="nextMove(this)"></td>
+        </tr>
+        <tr>
+            <td class="square" id="s7" onClick="nextMove(this)"></td>
+            <td class="square" id="s8" onClick="nextMove(this)"></td>
+            <td class="square" id="s9" onClick="nextMove(this)"></td>
+        </tr>
+    </table>
+<br><br>
+<a href="javascript: startGame()" id="restart">Reset</a>
+
+
+    <script src="script/ticTacToe.js"></script>
+
+</body>
+
+</html>

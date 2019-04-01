@@ -28,6 +28,16 @@
     float: left;
   }
   
+  [data-color="purple"] {
+    height: 33px;
+    background-color: purple;
+  }
+  
+  [data-color="pink"] {
+    height: 33px;
+    background-color: pink;
+  }
+  
   [data-color="blue"] {
     height: 33px;
     background-color: blue;
@@ -36,16 +46,6 @@
   [data-color="green"] {
     height: 33px;
     background-color: green;
-  }
-  
-  [data-color="red"] {
-    height: 33px;
-    background-color: red;
-  }
-  
-  [data-color="yellow"] {
-    height: 33px;
-    background-color: yellow;
   }
   
   #announce-game-won {
